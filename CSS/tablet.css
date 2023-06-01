@@ -1,0 +1,30 @@
+@media (min-width: 820px) and (max-width: 1180px) {
+  .logo {
+    width: 70vw;
+    margin-left: 7rem;
+  }
+
+  main {
+    margin: 0;
+    height: 80vh;
+  }
+
+  header {
+    background-image: url("/img/header-blood.png");
+    height: 20vh;
+  }
+
+  .icono-info {
+    width: 7vw;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 100px;
+    margin-left: 5rem;
+  }
+
+  #coders-list li {
+    font-size: 2.5rem;
+  }
+}

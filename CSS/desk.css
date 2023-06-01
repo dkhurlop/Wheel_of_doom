@@ -1,0 +1,59 @@
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+    width: 100%;
+    height: 80%;
+  }
+  main {
+    height: 72vh;
+  }
+
+  header {
+    height: 25vh;
+    margin: 0;
+  }
+
+.logo{
+    width: 25vw;
+}
+
+  .header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icono-info {
+    width: 4vw;
+  }
+
+  #coders-list {
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    column-gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #coders-list li {
+    margin: 20px;
+  }
+
+  .modal {
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.274);
+  }
+
+  .modal-container {
+    background: #fff;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+    position: relative;
+    background-image: url("/img/blood-main.png");
+  }
+}

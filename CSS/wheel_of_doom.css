@@ -1,0 +1,74 @@
+.logo {
+  display: flex;
+  width: 300px;
+}
+
+.skull-main {
+  width: 20vw;
+}
+
+main {
+  height: 75vh;
+}
+
+.select-coder {
+  padding: 0.2rem 2rem;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+
+.img-skull {
+  display: flex;
+  margin-left: 1.5rem;
+  width: 20vw;
+}
+
+.container {
+  max-width: 80%;
+  margin-top: 1rem;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  width: 23vw;
+}
+
+.swiper-slide img {
+  width: 50vw;
+}
+
+.rip-container {
+  position: relative;
+  width: 60vw;
+  margin-bottom: 1rem;
+}
+
+.rip-container img {
+  display: block;
+  z-index: -1;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.rip-name {
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(#ffffff);
+  font-size: 40px;
+  text-align: center;
+  text-shadow: var(--color-text-shadow);
+}
